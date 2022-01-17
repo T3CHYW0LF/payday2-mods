@@ -10,6 +10,20 @@
         { "hook_id" : "lib/tweak_data/playertweakdata", "script_path" : "player-data-tweak.lua"},
 	    { "hook_id" : "lib/tweak_data/upgradestweakdata", "script_path" : "upgrades-data-tweak.lua"},
 		{ "hook_id" : "lib/tweak_data/weaponfactorytweakdata", "script_path":"mod-tweak.lua"},
-		{ "hook_id" : "lib/tweak_data/weapontweakdata", "script_path":"gun-tweak.lua"}
+		{ "hook_id" : "lib/tweak_data/weapontweakdata", "script_path":"gun-tweak.lua"},
+		{ "hook_id" : "lib/tweak_data/equipmentstweakdata", "script_path" : "equipment-data-tweak.lua"},
+		{ "hook_id" : "lib/tweak_data/moneytweakdata", "script_path" : "money-data-tweak.lua"}
+	],
+	"keybinds" :
+	[
+		{
+			"keybind_id" : "keybind_hungry_wolves",
+			"name" : "Hungry Wolves Keybind",
+			"description" : "A keybind to press in-game which completely helps the hungry wolves"
+			"script_path" : "hungry-wolves.lua",
+			"run_in_menu" :false,
+			"run_in_game" : true,
+			"localized" : false
+		}
 	]
 }

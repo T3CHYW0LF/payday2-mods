@@ -1,0 +1,15 @@
+{
+	"name" : "WolvesEatPeopleToo",
+	"description" : "Go away!",
+	"author" : "Wolf"
+	"blt_version" : 2,	
+	"color" : "1 1 1",
+	"version" : "1.0",
+	"hooks":[
+        { "hook_id" : "lib/managers/menumanager", "script_path" : "menu-manager-tweak.lua"},
+        { "hook_id" : "lib/tweak_data/playertweakdata", "script_path" : "player-data-tweak.lua"},
+	    { "hook_id" : "lib/tweak_data/upgradestweakdata", "script_path" : "upgrades-data-tweak.lua"},
+		{ "hook_id" : "lib/tweak_data/weaponfactorytweakdata", "script_path":"mod-tweak.lua"},
+		{ "hook_id" : "lib/tweak_data/weapontweakdata", "script_path":"gun-tweak.lua"}
+	]
+}

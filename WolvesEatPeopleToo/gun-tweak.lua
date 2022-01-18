@@ -1,6 +1,9 @@
 Hooks:PostHook( WeaponTweakData, "init", "gun-tweak", function(self)  
 
 	--Akimbo Judge
+	self.x_judge.can_shoot_through_enemy = true
+	self.x_judge.can_shoot_through_shield = true
+	self.x_judge.can_shoot_through_wall = true
 	self.x_judge.rays = 9
 	self.x_judge.damage_falloff = SHOTGUN_NEAR
 	self.x_judge.AMMO_PICKUP = { 0.75, 1.12 }
@@ -40,6 +43,9 @@ Hooks:PostHook( WeaponTweakData, "init", "gun-tweak", function(self)
 	--Secondaries
 	--Judge
 	self.judge.rays = 9
+	self.judge.can_shoot_through_enemy = true
+	self.judge.can_shoot_through_shield = true
+	self.judge.can_shoot_through_wall = true
 	self.judge.damage_falloff = SHOTGUN_NEAR
 	self.judge.AMMO_PICKUP = { 0.75, 1.12 }
 	self.judge.NR_CLIPS_MAX = 9999
